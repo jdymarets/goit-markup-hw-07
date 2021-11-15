@@ -189,7 +189,7 @@
               <div class="team__item-description">
                 <h3 class="team__title">Игорь Демьяненко</h3>
                 <p class="team__text" lang="en">Product Designer</p>
-                <ul class="team__socials list socials__list">
+                <ul class="social list">
                   <li class="social__item">
                     <a href="" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -231,7 +231,7 @@
               <div class="team__item-description">
                 <h3 class="team__title">Ольга Репина</h3>
                 <p class="team__text" lang="en">Frontend Developer</p>
-                <ul class="team__socials list socials__list social">
+                <ul class="social list">
                   <li class="social__item">
                     <a href="" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -273,7 +273,7 @@
               <div class="team__item-description">
                 <h3 class="team__title">Николай Тарасов</h3>
                 <p class="team__text" lang="en">Marketing</p>
-                <ul class="team__socials list socials__list">
+                <ul class="social list">
                   <li class="social__item">
                     <a href="" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -315,7 +315,7 @@
               <div class="team__item-description">
                 <h3 class="team__title">Михаил Ермаков</h3>
                 <p class="team__text" lang="en">UI Designer</p>
-                <ul class="team__socials list socials__list">
+                <ul class="social list">
                   <li class="social__item">
                     <a href="" class="social__link">
                       <svg class="social__icon" width="20" height="20">
@@ -442,9 +442,9 @@
 
         <!-- footer-socials -->
 
-        <div class="footer-socials">
+        <div class="footer-social">
           <h3 class="footer__title">Присоединяйтесь</h3>
-          <ul class="list footer-socials__list">
+          <ul class="list footer-social__list">
             <li class="social__item">
               <a href="" class="footer-social__link">
                 <svg class="footer-social__icon" width="20" height="20">
@@ -506,42 +506,42 @@
           </svg>
         </button>
 
-        <form action="#" class="modal__form">
-          <p class="modal-form-title">
+        <form action="#" class="modal-form">
+          <p class="modal-form__title">
             Оставьте свои данные, мы вам перезвоним
           </p>
 
-          <label class="modal-form-field"
+          <label class="modal-form__field"
             >Имя
-            <span class="modal-form-wrapper">
-              <input type="text" class="modal-form-input" name="user-name" />
-              <svg class="modal-form-icon">
+            <span class="modal-form__wrapper">
+              <input type="text" class="modal-form__input" name="user-name" />
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal-form__field"
             >Телефон
-            <span class="modal-form-wrapper">
-              <input type="tel" class="modal-form-input" name="user-tel" />
-              <svg class="modal-form-icon">
+            <span class="modal-form__wrapper">
+              <input type="tel" class="modal-form__input" name="user-tel" />
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon-phone-modal"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal-form__field"
             >Почта
-            <span class="modal-form-wrapper">
-              <input type="email" class="modal-form-input" name="user-mail" />
-              <svg class="modal-form-icon">
+            <span class="modal-form__wrapper">
+              <input type="email" class="modal-form__input" name="user-mail" />
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon-email-modal"></use>
               </svg>
             </span>
           </label>
-          <label class="modal-form-field"
+          <label class="modal-form__field"
             >Комментарии
             <textarea
-              class="modal-form-comment"
+              class="modal-form__comment"
               name="user-comment"
               placeholder="Введите текст"
             ></textarea>
@@ -550,11 +550,11 @@
             type="checkbox"
             name="agreement"
             id="policy"
-            class="modal-form-checkbox"
+            class="modal-form__checkbox"
           />
-          <label for="policy" class="modal-form-checkbox-lebel checkbox-text"
+          <label for="policy" class="policy__lebel policy__text"
             >Соглашаюсь с рассылкой и принимаю&nbsp;
-            <a href="" class="policy-link">Условия договора</a></label
+            <a href="" class="policy__link">Условия договора</a></label
           >
 
           <button class="btn send-btn" type="submit">Отправить</button>
